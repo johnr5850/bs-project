@@ -1,4 +1,4 @@
-## Welcome to our SEP introduction website!
+## Welcome to the SEP Jungle Survival Guide!
 #### Created by Anthony Chen and John Ruan
 
 We have divided this guideline into four seperate parts:
