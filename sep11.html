@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Tele</title>
-    <!-- Latest compiled and minified CSS -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Tele</title>
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
   <!-- jQuery library -->
@@ -19,57 +20,74 @@
 
   <script src="script.js"></script>
   <style>
+    body {
+      background: url(IMG_3187.JPG) no-repeat center center fixed;
+      background-size: cover;
+    }
     
-  body {
-    background: url(IMG_3187.JPG) no-repeat center center fixed;
-    background-size:cover;
-  }
-  
-  h1{
-    text-align: center;
-    color: black;
-  }
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      color: black;
+    }
     
-  .glyphicon.glyphicon-cog{
-    font-size:50px;
-  }
-  
-  div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px ;
-  opacity: 0.6;
-}
-  
+    .glyphicon.glyphicon-cog {
+      font-size: 50px;
+    }
+    
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px;
+      opacity: 0.6;
+    }
   </style>
-  </head>
-  <body>
+</head>
+
+<body>
   <nav class="navbar navbar-inverse ">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Sep Guide</a>
-      <span id="glyph" class="glyphicon glyphicon-cog"></span>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Sep Guide</a>
+        <span id="glyph" class="glyphicon glyphicon-cog"></span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sep09.html">sep09</a></li>
+        <li><a href="sep10.html">sep10</a></li>
+        <li class="active"><a href="sep11.html">sep11</a></li>
+        <li><a href="sep12.html">sep12</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="sep09.html">sep09</a></li>
-      <li><a href="sep10.html">sep10</a></li> 
-      <li class="active"><a href="sep11.html">sep11</a></li> 
-      <li><a href="sep12.html">sep12</a></li> 
-    </ul>
+  </nav>
+  <div class="transbox">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+
+          <h1>Welcome to HSTAT SEP!</h1>
+          <h2>Junior Topics:</h2>
+          <h2><a href='#gitgud'>Git and Github</a>, <a href='#webdesign'>Web Design</a>, <a href='#dataman'>Data</a>,
+          <a href='#modeling'>3D Modeling</a></h2>
+          <div id='gitgud' class='container-fluid'>
+
+          </div>
+          <div id='webdesign' class='container-fluid'>
+
+          </div>
+          <div id='dataman' class='container-fluid'>
+
+          </div>
+          <div id='modeling' class='container-fluid'>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
-<div class= "transbox">
-<div class="container-fluid">
-<div class="row">
-    <div class="col-sm-12">
-      
-      <h1>Welcome to HSTAT SEP!</h1>
-      
-      
-      </div>
-      </div>
-      </div>
-      </div>
-  </body>
+</body>
+
 </html>
