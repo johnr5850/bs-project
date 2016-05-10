@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Tele</title>
-    <!-- Latest compiled and minified CSS -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Tele</title>
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
   <!-- jQuery library -->
@@ -19,72 +20,119 @@
 
   <script src="script.js"></script>
   <style>
+    body {
+      background: url(IMG_3187.JPG) no-repeat center center fixed;
+      background-size: cover;
+    }
     
-  body {
-    background: url(IMG_3187.JPG) no-repeat center center fixed;
-    background-size:cover;
-  }
-  
-  h1{
-    text-align: center;
-    color: black;
-  }
-    
-  .glyphicon.glyphicon-cog{
-    font-size:50px;
-  }
-  
-  div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px ;
-  opacity: 0.6;
-}
-
-#something {
-  opacity:;
-}
-
-h1,
-  h2,
-  h3 {
+    h1 {
       text-align: center;
       color: black;
     }
-  
-  a {
-    color: #794c46;
-  }
+    
+    .glyphicon.glyphicon-cog {
+      font-size: 50px;
+    }
+    
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px;
+      opacity: 0.6;
+    }
+    
+    #something {
+      opacity: 0.7;
+    }
+    
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      color: black;
+    }
+    
+    a {
+      color: #794c46;
+    }
   </style>
-  </head>
-  <body>
+</head>
+
+<body>
   <nav class="navbar navbar-inverse ">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Sep Guide</a>
-      <span id="glyph" class="glyphicon glyphicon-cog"></span>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Sep Guide</a>
+        <span id="glyph" class="glyphicon glyphicon-cog"></span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="sep09.html">sep09</a></li>
+        <li><a href="sep10.html">sep10</a></li>
+        <li><a href="sep11.html">sep11</a></li>
+        <li><a href="sep12.html">sep12</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="sep09.html">sep09</a></li>
-      <li><a href="sep10.html">sep10</a></li> 
-      <li><a href="sep11.html">sep11</a></li> 
-      <li><a href="sep12.html">sep12</a></li> 
-    </ul>
-  </div>
-</nav>
-<div class= "transbox">
-<div class="container-fluid">
-<div class="row">
-    <div class="col-sm-12">
-      <div id="something">
-      <h1>Welcome to HSTAT SEP!</h1>
-      <h2>Click on the years below to learn about Telecom's SEP program!</h2>
-       <h2><a href='sep09.html'>Freshmen</a>, <a href='sep10.html'>Sophomore</a>, <a href='sep11.html'>Junior</a>, <a href='sep12.html'>Senior</a>
+  </nav>
+  <div class="transbox">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="something">
+            <h1>Welcome to HSTAT SEP!</h1>
+            <h2>Click on the years below to learn about Telecom's SEP program!</h2>
+            <h2><a href='sep09.html'>Freshmen</a>, <a href='sep10.html'>Sophomore</a>, <a href='sep11.html'>Junior</a>, <a href='sep12.html'>Senior</a>
       </div>
       </div>
       </div>
       </div>
       </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class='carousel-indicators'>
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+           <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class='carousel-inner' role='listbox'>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+          <div class='item'>
+            
+          </div>
+        </div>
+         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+         </a>
   </body>
 </html>
