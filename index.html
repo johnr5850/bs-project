@@ -18,7 +18,15 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
 
-  <script src="script.js"></script>
+  <script src="script.js">
+    $(function() {
+      $('#buttono').click(function(){
+        var name = $('#name').val();
+        var thanks = "Thank you for taking your time to send us your thoughts, " + name + ".";
+        $('p').html(thanks)
+      });
+    });
+  </script>
   <style>
     body {
       background: url(IMG_3187.JPG) no-repeat center center fixed;
@@ -60,6 +68,19 @@
     .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+    }
+    
+    label {
+      display: inline-block;
+      float: left;
+      clear: left;
+      width: 250px;
+      text-align: right;
+    }
+    
+    input {
+      display: inline-block;
+      float: left;
     }
   </style>
 </head>
@@ -163,8 +184,18 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div><br>
+<div class='container'>
+  <div class='jumbotron'>
+  <h1>Contact Us!</h1><br>
+  <label>Name:</label><input id='name'><br>
+  <label>E-mail:</label><input><br>
+  <label>Your comment:</label><input><br><br>
+  <button id='buttono'>Submit</button>
+  <p></p>
+  <br><br>
   </div>
-
+</div>
 
   </body>
 </html>
